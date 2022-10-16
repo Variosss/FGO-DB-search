@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3379B57428FC8EDE000BBAE4 /* FGO_DB_searchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B57328FC8EDE000BBAE4 /* FGO_DB_searchApp.swift */; };
+		3379B57628FC8EDE000BBAE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B57528FC8EDE000BBAE4 /* ContentView.swift */; };
+		3379B57828FC8EE1000BBAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3379B57728FC8EE1000BBAE4 /* Assets.xcassets */; };
+		3379B57B28FC8EE1000BBAE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3379B57A28FC8EE1000BBAE4 /* Preview Assets.xcassets */; };
+		3379B58528FC8EE2000BBAE4 /* FGO_DB_searchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B58428FC8EE2000BBAE4 /* FGO_DB_searchTests.swift */; };
+		3379B58F28FC8EE2000BBAE4 /* FGO_DB_searchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B58E28FC8EE2000BBAE4 /* FGO_DB_searchUITests.swift */; };
+		3379B59128FC8EE2000BBAE4 /* FGO_DB_searchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B59028FC8EE2000BBAE4 /* FGO_DB_searchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3379B58128FC8EE2000BBAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3379B56828FC8EDE000BBAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3379B56F28FC8EDE000BBAE4;
+			remoteInfo = "FGO DB search";
+		};
+		3379B58B28FC8EE2000BBAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3379B56828FC8EDE000BBAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3379B56F28FC8EDE000BBAE4;
+			remoteInfo = "FGO DB search";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3379B57028FC8EDE000BBAE4 /* FGO DB search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FGO DB search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3379B57328FC8EDE000BBAE4 /* FGO_DB_searchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGO_DB_searchApp.swift; sourceTree = "<group>"; };
+		3379B57528FC8EDE000BBAE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3379B57728FC8EE1000BBAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3379B57A28FC8EE1000BBAE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3379B58028FC8EE2000BBAE4 /* FGO DB searchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FGO DB searchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3379B58428FC8EE2000BBAE4 /* FGO_DB_searchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGO_DB_searchTests.swift; sourceTree = "<group>"; };
+		3379B58A28FC8EE2000BBAE4 /* FGO DB searchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FGO DB searchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3379B58E28FC8EE2000BBAE4 /* FGO_DB_searchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGO_DB_searchUITests.swift; sourceTree = "<group>"; };
+		3379B59028FC8EE2000BBAE4 /* FGO_DB_searchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGO_DB_searchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3379B56D28FC8EDE000BBAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3379B57D28FC8EE2000BBAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3379B58728FC8EE2000BBAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3379B56728FC8EDE000BBAE4 = {
+			isa = PBXGroup;
+			children = (
+				3379B57228FC8EDE000BBAE4 /* FGO DB search */,
+				3379B58328FC8EE2000BBAE4 /* FGO DB searchTests */,
+				3379B58D28FC8EE2000BBAE4 /* FGO DB searchUITests */,
+				3379B57128FC8EDE000BBAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3379B57128FC8EDE000BBAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3379B57028FC8EDE000BBAE4 /* FGO DB search.app */,
+				3379B58028FC8EE2000BBAE4 /* FGO DB searchTests.xctest */,
+				3379B58A28FC8EE2000BBAE4 /* FGO DB searchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3379B57228FC8EDE000BBAE4 /* FGO DB search */ = {
+			isa = PBXGroup;
+			children = (
+				3379B57328FC8EDE000BBAE4 /* FGO_DB_searchApp.swift */,
+				3379B57528FC8EDE000BBAE4 /* ContentView.swift */,
+				3379B57728FC8EE1000BBAE4 /* Assets.xcassets */,
+				3379B57928FC8EE1000BBAE4 /* Preview Content */,
+			);
+			path = "FGO DB search";
+			sourceTree = "<group>";
+		};
+		3379B57928FC8EE1000BBAE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3379B57A28FC8EE1000BBAE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3379B58328FC8EE2000BBAE4 /* FGO DB searchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3379B58428FC8EE2000BBAE4 /* FGO_DB_searchTests.swift */,
+			);
+			path = "FGO DB searchTests";
+			sourceTree = "<group>";
+		};
+		3379B58D28FC8EE2000BBAE4 /* FGO DB searchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3379B58E28FC8EE2000BBAE4 /* FGO_DB_searchUITests.swift */,
+				3379B59028FC8EE2000BBAE4 /* FGO_DB_searchUITestsLaunchTests.swift */,
+			);
+			path = "FGO DB searchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3379B56F28FC8EDE000BBAE4 /* FGO DB search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3379B59428FC8EE2000BBAE4 /* Build configuration list for PBXNativeTarget "FGO DB search" */;
+			buildPhases = (
+				3379B56C28FC8EDE000BBAE4 /* Sources */,
+				3379B56D28FC8EDE000BBAE4 /* Frameworks */,
+				3379B56E28FC8EDE000BBAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FGO DB search";
+			productName = "FGO DB search";
+			productReference = 3379B57028FC8EDE000BBAE4 /* FGO DB search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3379B57F28FC8EE2000BBAE4 /* FGO DB searchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3379B59728FC8EE2000BBAE4 /* Build configuration list for PBXNativeTarget "FGO DB searchTests" */;
+			buildPhases = (
+				3379B57C28FC8EE2000BBAE4 /* Sources */,
+				3379B57D28FC8EE2000BBAE4 /* Frameworks */,
+				3379B57E28FC8EE2000BBAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3379B58228FC8EE2000BBAE4 /* PBXTargetDependency */,
+			);
+			name = "FGO DB searchTests";
+			productName = "FGO DB searchTests";
+			productReference = 3379B58028FC8EE2000BBAE4 /* FGO DB searchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3379B58928FC8EE2000BBAE4 /* FGO DB searchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3379B59A28FC8EE2000BBAE4 /* Build configuration list for PBXNativeTarget "FGO DB searchUITests" */;
+			buildPhases = (
+				3379B58628FC8EE2000BBAE4 /* Sources */,
+				3379B58728FC8EE2000BBAE4 /* Frameworks */,
+				3379B58828FC8EE2000BBAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3379B58C28FC8EE2000BBAE4 /* PBXTargetDependency */,
+			);
+			name = "FGO DB searchUITests";
+			productName = "FGO DB searchUITests";
+			productReference = 3379B58A28FC8EE2000BBAE4 /* FGO DB searchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3379B56828FC8EDE000BBAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3379B56F28FC8EDE000BBAE4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3379B57F28FC8EE2000BBAE4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3379B56F28FC8EDE000BBAE4;
+					};
+					3379B58928FC8EE2000BBAE4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3379B56F28FC8EDE000BBAE4;
+					};
+				};
+			};
+			buildConfigurationList = 3379B56B28FC8EDE000BBAE4 /* Build configuration list for PBXProject "FGO DB search" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3379B56728FC8EDE000BBAE4;
+			productRefGroup = 3379B57128FC8EDE000BBAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3379B56F28FC8EDE000BBAE4 /* FGO DB search */,
+				3379B57F28FC8EE2000BBAE4 /* FGO DB searchTests */,
+				3379B58928FC8EE2000BBAE4 /* FGO DB searchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3379B56E28FC8EDE000BBAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3379B57B28FC8EE1000BBAE4 /* Preview Assets.xcassets in Resources */,
+				3379B57828FC8EE1000BBAE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3379B57E28FC8EE2000BBAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3379B58828FC8EE2000BBAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3379B56C28FC8EDE000BBAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3379B57628FC8EDE000BBAE4 /* ContentView.swift in Sources */,
+				3379B57428FC8EDE000BBAE4 /* FGO_DB_searchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3379B57C28FC8EE2000BBAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3379B58528FC8EE2000BBAE4 /* FGO_DB_searchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3379B58628FC8EE2000BBAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3379B58F28FC8EE2000BBAE4 /* FGO_DB_searchUITests.swift in Sources */,
+				3379B59128FC8EE2000BBAE4 /* FGO_DB_searchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3379B58228FC8EE2000BBAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3379B56F28FC8EDE000BBAE4 /* FGO DB search */;
+			targetProxy = 3379B58128FC8EE2000BBAE4 /* PBXContainerItemProxy */;
+		};
+		3379B58C28FC8EE2000BBAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3379B56F28FC8EDE000BBAE4 /* FGO DB search */;
+			targetProxy = 3379B58B28FC8EE2000BBAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3379B59228FC8EE2000BBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3379B59328FC8EE2000BBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3379B59528FC8EE2000BBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FGO DB search/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "v1.FGO-DB-search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3379B59628FC8EE2000BBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FGO DB search/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "v1.FGO-DB-search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3379B59828FC8EE2000BBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "v1.FGO-DB-searchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGO DB search.app/FGO DB search";
+			};
+			name = Debug;
+		};
+		3379B59928FC8EE2000BBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "v1.FGO-DB-searchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGO DB search.app/FGO DB search";
+			};
+			name = Release;
+		};
+		3379B59B28FC8EE2000BBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "v1.FGO-DB-searchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FGO DB search";
+			};
+			name = Debug;
+		};
+		3379B59C28FC8EE2000BBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "v1.FGO-DB-searchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FGO DB search";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3379B56B28FC8EDE000BBAE4 /* Build configuration list for PBXProject "FGO DB search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3379B59228FC8EE2000BBAE4 /* Debug */,
+				3379B59328FC8EE2000BBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3379B59428FC8EE2000BBAE4 /* Build configuration list for PBXNativeTarget "FGO DB search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3379B59528FC8EE2000BBAE4 /* Debug */,
+				3379B59628FC8EE2000BBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3379B59728FC8EE2000BBAE4 /* Build configuration list for PBXNativeTarget "FGO DB searchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3379B59828FC8EE2000BBAE4 /* Debug */,
+				3379B59928FC8EE2000BBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3379B59A28FC8EE2000BBAE4 /* Build configuration list for PBXNativeTarget "FGO DB searchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3379B59B28FC8EE2000BBAE4 /* Debug */,
+				3379B59C28FC8EE2000BBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3379B56828FC8EDE000BBAE4 /* Project object */;
+}
