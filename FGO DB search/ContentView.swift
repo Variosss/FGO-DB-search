@@ -35,9 +35,8 @@ struct Character: Codable{
     var rarity: Int
 }
 
-
-
-struct ContentView: View {
+struct SecondView: View
+{
     @State private var characters = [Character]()
     @State private var charactername: String = ""
     var body: some View {
@@ -60,7 +59,7 @@ struct ContentView: View {
     }
     func fetchData() async
     {
-        guard let url = URL(string: "https://api.atlasacademy.io/basic/NA/servant/search?name=Napol ")
+        guard let url = URL(string: "https://api.atlasacademy.io/basic/NA/servant/search?name=Napol")
                 else
         {
             print("URL not working")
@@ -80,6 +79,20 @@ struct ContentView: View {
             print("Invalid data")
         }
     }
+    
+}
+
+struct ContentView: View {
+    var body: some View {
+            NavigationView {
+                VStack {
+                    NavigationLink(destination: SecondView()) {
+                        Text("Search").font(.headline)
+                    }
+                    .navigationTitle("Navigation")
+                }
+            }
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {
