@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+ @main
 struct FGO_DB_searchApp: App {
     var body: some Scene {
         WindowGroup {
