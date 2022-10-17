@@ -6,6 +6,11 @@
 //
 
 import SwiftUI
+final class Params: ObservableObject {
+  static let global = Params()
+
+        var nazwa = "Altria"
+}
 extension String
 {
     func load() -> UIImage
@@ -37,6 +42,7 @@ struct Character: Codable{
 
 struct SecondView: View
 {
+    @ObservedObject var global = Params.global
     @State private var characters = [Character]()
     @State private var charactername: String = ""
     var body: some View {
@@ -59,7 +65,7 @@ struct SecondView: View
     }
     func fetchData() async
     {
-        guard let url = URL(string: "https://api.atlasacademy.io/basic/NA/servant/search?name=Napol")
+        guard let url = URL(string: "https://api.atlasacademy.io/basic/NA/servant/search?name=" + global.nazwa)
                 else
         {
             print("URL not working")
@@ -83,13 +89,15 @@ struct SecondView: View
 }
 
 struct ContentView: View {
+    @ObservedObject var global = Params.global
     var body: some View {
             NavigationView {
                 VStack {
+                    TextField("Test", text: $global.nazwa).multilineTextAlignment(.center)
                     NavigationLink(destination: SecondView()) {
-                        Text("Search").font(.headline)
+                        Text("Wyszukaj").font(.system(size:34))
                     }
-                    .navigationTitle("Navigation")
+                    .navigationTitle("FGO Database searcher")
                 }
             }
         }
