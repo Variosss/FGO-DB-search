@@ -34,10 +34,17 @@ extension String
 
 struct Character: Codable{
     var id: Int
-    var face: String
     var name: String
+    var face: String
     var className: String
-    var rarity: Int
+    var atkMax: Int
+    var hpMax: Int
+}
+struct extraAssets: Codable{
+    var faces: ascension
+}
+struct ascension: Codable{
+    var test: String
 }
 
 struct SecondView: View
@@ -52,39 +59,46 @@ struct SecondView: View
                 character in VStack(alignment: .leading)
                 {
                     Text(character.name).font(.headline)
-                    Text(String(character.rarity)+" Stars").font(.body)
-                    Text(character.className).font(.body)
+                    //Text(String(character.coin.summonNum))
                     Image(uiImage: character.face.load())
+                    Text(character.className)
+                    Text(String(character.atkMax) + " ATK")
+                    Text(String(character.hpMax) + " HP")
+                    NavigationLink(destination: SecondView()) {}
                 }
             }.navigationTitle("Characters")
                 .task {
-                    await fetchData()
+                    await fetchData(typ: "start")
                 }
             
         }
     }
-    func fetchData() async
+    func fetchData(typ: String) async
     {
-        guard let url = URL(string: "https://api.atlasacademy.io/basic/NA/servant/search?name=" + global.nazwa)
-                else
+        if (typ == "start")
         {
-            print("URL not working")
-            return
-        }
-        do
-        {
-            let (data, _) = try await URLSession.shared.data(from: url)
-            
-            if let decodedResponse = try? JSONDecoder().decode([Character].self,from: data)
+            guard let url = URL(string: "https://api.atlasacademy.io/basic/NA/servant/search?name=" + global.nazwa)
+                    else
             {
-                characters = decodedResponse
+                print("URL not working")
+                return
             }
-            
-        }catch
-        {
-            print("Invalid data")
+            do
+            {
+                let (data, _) = try await URLSession.shared.data(from: url)
+                
+                if let decodedResponse = try? JSONDecoder().decode([Character].self,from: data)
+                {
+                    characters = decodedResponse
+                }
+                
+            }catch
+            {
+                print("Invalid data")
+            }
         }
-    }
+        }
+        
     
 }
 
@@ -94,8 +108,9 @@ struct ContentView: View {
             NavigationView {
                 VStack {
                     TextField("Test", text: $global.nazwa).multilineTextAlignment(.center)
+                    
                     NavigationLink(destination: SecondView()) {
-                        Text("Wyszukaj").font(.system(size:34))
+                        Text("Search").font(.system(size:34))
                     }
                     .navigationTitle("FGO Database searcher")
                 }
