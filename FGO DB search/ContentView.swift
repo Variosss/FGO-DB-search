@@ -72,6 +72,9 @@ struct SecondView: View
                 }
             
         }
+        .padding(0.0)
+        
+        
     }
     func fetchData(typ: String) async
     {
@@ -105,12 +108,12 @@ struct SecondView: View
 struct ContentView: View {
     @ObservedObject var global = Params.global
     var body: some View {
-            NavigationView {
+        NavigationView {
                 VStack {
                     TextField("Test", text: $global.nazwa).multilineTextAlignment(.center)
                     
                     NavigationLink(destination: SecondView()) {
-                        Text("Search").font(.system(size:34))
+                        Text("Search").font(.system(size:34)).background(Image("Female_Protagonist_Riyo"))
                     }
                     .navigationTitle("FGO Database searcher")
                 }
