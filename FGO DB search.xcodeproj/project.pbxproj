@@ -14,6 +14,7 @@
 		3379B58528FC8EE2000BBAE4 /* FGO_DB_searchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B58428FC8EE2000BBAE4 /* FGO_DB_searchTests.swift */; };
 		3379B58F28FC8EE2000BBAE4 /* FGO_DB_searchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B58E28FC8EE2000BBAE4 /* FGO_DB_searchUITests.swift */; };
 		3379B59128FC8EE2000BBAE4 /* FGO_DB_searchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3379B59028FC8EE2000BBAE4 /* FGO_DB_searchUITestsLaunchTests.swift */; };
+		33978EFF2911B3CA009D551E /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33978EFE2911B3CA009D551E /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3379B58A28FC8EE2000BBAE4 /* FGO DB searchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FGO DB searchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3379B58E28FC8EE2000BBAE4 /* FGO_DB_searchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGO_DB_searchUITests.swift; sourceTree = "<group>"; };
 		3379B59028FC8EE2000BBAE4 /* FGO_DB_searchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGO_DB_searchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33978EFE2911B3CA009D551E /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				3379B57228FC8EDE000BBAE4 /* FGO DB search */,
-				3379B58328FC8EE2000BBAE4 /* FGO DB searchTests */,
 				3379B58D28FC8EE2000BBAE4 /* FGO DB searchUITests */,
 				3379B57128FC8EDE000BBAE4 /* Products */,
 			);
@@ -94,9 +95,11 @@
 		3379B57228FC8EDE000BBAE4 /* FGO DB search */ = {
 			isa = PBXGroup;
 			children = (
-				3379B57328FC8EDE000BBAE4 /* FGO_DB_searchApp.swift */,
 				3379B57528FC8EDE000BBAE4 /* ContentView.swift */,
+				3379B57328FC8EDE000BBAE4 /* FGO_DB_searchApp.swift */,
+				33978EFE2911B3CA009D551E /* SearchResult.swift */,
 				3379B57728FC8EE1000BBAE4 /* Assets.xcassets */,
+				3379B58328FC8EE2000BBAE4 /* FGO DB searchTests */,
 				3379B57928FC8EE1000BBAE4 /* Preview Content */,
 			);
 			path = "FGO DB search";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3379B57628FC8EDE000BBAE4 /* ContentView.swift in Sources */,
+				33978EFF2911B3CA009D551E /* SearchResult.swift in Sources */,
 				3379B57428FC8EDE000BBAE4 /* FGO_DB_searchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

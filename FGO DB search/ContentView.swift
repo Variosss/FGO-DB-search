@@ -52,6 +52,8 @@ struct SecondView: View
     @ObservedObject var global = Params.global
     @State private var characters = [Character]()
     @State private var charactername: String = ""
+    var test = ""
+    @State private var isPushed = false
     var body: some View {
         NavigationView {
             List(characters, id:\.id)
@@ -64,7 +66,14 @@ struct SecondView: View
                     Text(character.className)
                     Text(String(character.atkMax) + " ATK")
                     Text(String(character.hpMax) + " HP")
-                    NavigationLink(destination: SecondView()) {}
+                    NavigationLink(destination: SearchResult().onAppear{setCharacter(character: character.className)})
+                    {}
+//                    NavigationLink(destination: SearchResult(), isActive: $isPushed){}.onChange(of: isPushed) { (newValue) in
+//                        if newValue {
+//                            setCharacter(character: character.name)
+//                        }
+//                    }
+
                 }
             }.navigationTitle("Characters")
                 .task {
@@ -125,4 +134,9 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+func setCharacter(character: String)
+{
+    @ObservedObject var global = Params.global
+    global.nazwa = character
 }
